@@ -1,5 +1,6 @@
 /* global describe, it */
 
+require('babel-polyfill');
 require('should');
 const request = require('superagent');
 
