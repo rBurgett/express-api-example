@@ -1,0 +1,28 @@
+{
+  "name": "express-api-example",
+  "version": "1.0.0",
+  "description": "express-api-example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rBurgett/express-api-example.git"
+  },
+  "author": "Ryan Burgett <ryan@burgettweb.net>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rBurgett/express-api-example/issues"
+  },
+  "homepage": "https://github.com/rBurgett/express-api-example#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1"
+  }
+}
