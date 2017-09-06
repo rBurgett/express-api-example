@@ -14,9 +14,6 @@ const handleError = err => console.error(err);
 
 const server = express()
     .use(bodyParser.json())
-    // .get('/', (req, res) => {
-    //     res.send('home');
-    // })
     .get('/api/animal', (req, res) => {
         try {
             res.send(JSON.stringify(animals));
